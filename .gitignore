@@ -1,0 +1,58 @@
+# ---- OS / 编辑器 ----
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+*.swo
+.idea/
+.vscode/
+*.code-workspace
+
+# ---- 日志与临时文件 ----
+*.log
+logs/
+tmp/
+temp/
+*.tmp
+*.bak
+
+# ---- 环境变量 / 密钥（切勿提交）----
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets/
+
+# ---- Node.js ----
+node_modules/
+dist/
+build/
+coverage/
+.npm/
+npm-debug.log*
+pnpm-debug.log*
+yarn-error.log*
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# ---- Java / .NET / Go / Rust ----
+target/
+bin/
+obj/
+*.class
+*.dll
+*.exe
+!**/bin/.gitkeep
+Cargo.lock.bak
+
+# ---- 其他 ----
+.cache/
+*.sublime-workspace
